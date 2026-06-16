@@ -1,0 +1,22 @@
+/* Margin Collapse Example */
+/* All of the following type/element selectors has its `display` property value 
+  set to `block` unless we explicitly force it to other values such as `inline` or 
+  `inline-block` */
+
+h2 {
+    margin: 0px 0px 20px 0px;
+    outline: 2px solid red;
+}
+
+div {
+    margin: 50px 0px 0px 0px;
+    outline: 2px solid blue;
+}
+
+p {
+    margin: 60px 0px 0px 0px;
+    outline: 5px solid green;
+    display: inline;
+    /* display: block; */
+    /* display: inline-block; */
+}
